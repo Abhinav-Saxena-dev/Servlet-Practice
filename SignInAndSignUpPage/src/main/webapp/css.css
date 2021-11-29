@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: url('./images/3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* body{
+    /* background: url("3.jpg") center fixed;
+    background-size: 110vw 110vh;
+  } */
+
+.box {
+    width: 60vmin;
+    height: 62vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.blur2 {
+    background: rgba(28, 241, 231, 0.3);
+    backdrop-filter: blur(8px);
+    width: 60vmin;
+    height: 62vmin;
+    box-shadow: 0 4px 4px 6px rgba(0, 0, 0, 0.2), 5px 2px 16px 6px rgba(0, 0, 0, 0.19);
+}
+
+.box2 {
+    padding: 20px;
+}
+
+input {
+    border-radius: 20px 20px 20px 20px;
+    width: 70%;
+    padding: 18px;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.submitbtn {
+    width: 30%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(209, 208, 208);
+    cursor: pointer;
+}
+.submitbtn:hover{
+    background-color: rgb(184, 178, 178);
+}
+
+.radio1 {
+    width: 2.5%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 126, 143);
+    margin: 30px;
+}
